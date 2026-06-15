@@ -473,7 +473,7 @@ def validate(
 
     results = {}
     results.update(loss_meters.averages())
-    results.update({f"val_{k}": v for k, v in metric_meters.averages()})
+    results.update({f"val_{k}": v for k, v in metric_meters.averages().items()})
     return results
 
 
