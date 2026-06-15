@@ -45,8 +45,8 @@ TORCH_NUM_THREADS = 2       # Prevent CPU thread oversubscription during small-k
 DATA_ROOT = "data"
 DOWNLOAD_DATA = True          # Safe: existing files are reused by the loader.
 CUBE_KEY = "cube"
-TOTAL_IMAGES = 2
-TRAIN_IMAGES = 1
+TOTAL_IMAGES = 3
+TRAIN_IMAGES = 2
 
 # Training ---------------------------------------------------------------------
 EPOCHS = 100
